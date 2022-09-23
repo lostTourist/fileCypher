@@ -5,6 +5,7 @@ import MarketCard from "../components/MarketCard"
 import NftCard from "../components/NftCard"
 import MainHeader from "../components/MainHeader"
 import MainNav from "../components/MainNav"
+import FooterMod from "../components/FooterMod"
 
 const nfts = [
     {
@@ -16,6 +17,7 @@ const nfts = [
         author: "Author",
         rating: 75,
         price: 45,
+        image: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5",
     },
     {
         id: 2,
@@ -26,6 +28,7 @@ const nfts = [
         author: "Author",
         rating: 75,
         price: 45,
+        image: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5",
     },
     {
         id: 3,
@@ -36,7 +39,30 @@ const nfts = [
         author: "Author",
         rating: 75,
         price: 45,
+        image: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5",
     },
+    {
+        id: 4,
+        title: "TITLE",
+        description:
+            "Lorem ipsum dolor sit amet, adfsdf consectet adipiscing elit, asdsed do eiusmod tempor incididunt ut labore et dolore",
+        series: "SERIES",
+        author: "Author",
+        rating: 75,
+        price: 45,
+        image: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5",
+    },
+    {
+        id: 5,
+        title: "TITLE",
+        description:
+            "Lorem ipsum dolor sit amet, adfsdf consectet adipiscing elit, asdsed do eiusmod tempor incididunt ut labore et dolore",
+        series: "SERIES",
+        author: "Author",
+        rating: 75,
+        price: 45,
+        image: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5",
+    }
 ]
 
 export default function Home() {
@@ -52,54 +78,50 @@ export default function Home() {
 
     return (
         <>  {/*NAVBAR*/}
-            
-            <MainNav />    
-            
+
+            <MainNav />
+
 
             {/*HEADER*/}
 
-            <div className= "position-relative" >
+            <div className="position-relative" >
                 <MainHeader
-                backgroundImage="https://images.pexels.com/photos/8531176/pexels-photo-8531176.jpeg"
-                />    
+                    backgroundImage="https://images.pexels.com/photos/8531176/pexels-photo-8531176.jpeg"
+                />
             </div>
 
             {/*SUBNAV*/}
 
-            <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10"
-                style={{
-                    background: "linear-gradient(223.57deg, #0f5f4b 11.28%, #09152f 111.42%)",
-                    boxShadow: "0px 8px 20px 0 rgba(0,0,0,0.1)",
-                  }}
-                  >
+            <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
                 <MarketCard
                     title="Market"
                     description="Lorem ipsum dolor sit amet, adfsdf consectet adipiscing elit, asdsed do eiusmod tempor incididunt ut labore et dolore"
                     buttonName="MARKET"
                     buttonURL="#"
-                    const buttonHandler={() => {}}
+                    const buttonHandler={() => { }}
                 />
                 <MarketCard
                     title="Dashboard"
                     description="Lorem ipsum dolor sit amet, adfsdf consectet adipiscing elit, asdsed do eiusmod tempor incididunt ut labore et dolore"
                     buttonName="DASHBOARD"
                     buttonURL="#"
-                    constbuttonHandler={() => {}}
+                    constbuttonHandler={() => { }}
                 />
                 <MarketCard
                     title="Publish"
                     description="Lorem ipsum dolor sit amet, adfsdf consectet adipiscing elit, asdsed do eiusmod tempor incididunt ut labore et dolore"
                     buttonName="PUBLISH"
                     buttonURL="#"
-                    const buttonHandler={() => {}}
+                    const buttonHandler={() => { }}
                 />
             </div>
 
 
-            <div className="border border-blue-700 bg-blue-400">
-                <p>Minting Now</p>
-                <p>view more...</p>
-                {nfts.map((nft) => (
+            <div className="bg-slate-300 shadow-inner">
+                <div className="p-10 pb-0"><p>Minting Now</p>
+                    <p>view more...</p></div>
+                <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10">
+                    {nfts.map((nft) => (
                     <NftCard
                         key={nft.id}
                         title={nft.title}
@@ -108,14 +130,19 @@ export default function Home() {
                         author={nft.author}
                         rating={nft.rating}
                         price={nft.price}
+                        image={nft.image}
                         isMintingNow={true}
                     />
                 ))}
+                </div>
+
             </div>
-            <div className="border border-black bg-blue-200">
-                <p>Top Sellers</p>
+            <div className="bg-slate-100 shadow-inner">
+            <div className="p-10 pb-0"><p>Top Sellers</p>
                 <p>view more...</p>
-                {nfts.map((nft) => (
+                </div>
+                <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10">
+                    {nfts.map((nft) => (
                     <NftCard
                         key={nft.id}
                         title={nft.title}
@@ -124,9 +151,17 @@ export default function Home() {
                         author={nft.author}
                         rating={nft.rating}
                         price={nft.price}
+                        image={nft.image}
                         isMintingNow={false}
                     />
                 ))}
+            </div>
+            </div>
+
+            {/*SUBNAV*/}
+
+            <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
+                <FooterMod />
             </div>
         </>
     )

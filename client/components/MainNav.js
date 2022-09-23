@@ -73,7 +73,7 @@ function MainNav() {
 
             {/* MOBILE MENU */}
 
-            <div className="mobile-menu md:hidden mx-6 mt-10">
+            <div className="hidden mobile-menu md:hidden mx-6 mt-10">
                 <div className="md:hidden flex justify-between shadow-xl relative text-center text-black p-1 rounded-[40px] bg-slate-700 min-w-[350px]">
                     <div className="m-1 pl-2">
                         <p>search</p>

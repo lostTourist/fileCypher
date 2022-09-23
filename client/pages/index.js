@@ -160,7 +160,7 @@ export default function Home() {
 
             {/*SUBNAV*/}
 
-            <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
+            <div className="flex justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
                 <FooterMod />
             </div>
         </>

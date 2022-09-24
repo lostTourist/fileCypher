@@ -20,10 +20,9 @@ function MainHeader({ backgroundImage }) {
                         <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 bg-red-300 rounded-full animate-blob3  animation-delay-4000"></div>
 
                         <div className="flex w-full max-w-lg">
-                            <div className="shadow-2xl relative text-center text-black pt-4 pb-10 p-8 m-6 mt-4 mb-12 rounded-full bg-slate-50 ">
+                            <div className="shadow-2xl relative text-center text-black pt-4 pb-10 p-8 m-6 mt-4 mb-12 rounded-3xl bg-slate-50 ">
                             <div className="mt-10"><p>Fill otu this form completely to send an encrypted file over the blockchain.</p></div>
                                 <div className="p-5 flex-items-center justify-between space-x-8">
-
                                     <div>
                                         <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">
                                             Receiving Wallet
@@ -33,14 +32,63 @@ function MainHeader({ backgroundImage }) {
                                             <input
                                                 type="text"
                                                 name="toWallet"
-                                                id="pricetoWallet"
-                                                className="py-3 block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                id="defaultInput"
+                                                className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                 placeholder="receiver address"
-                                            />
-                                            
+                                            />   
                                         </div>
-                                    </div>
-                                    
+                                    </div>   
+                                </div>
+                                <div className="p-5 flex-items-center justify-between space-x-8">
+                                    <div>
+                                        <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">
+                                            Receiving Wallet
+                                        </label>
+                                        <div className="relative mt-1 rounded-md shadow-sm">
+                
+                                            <input
+                                                type="text"
+                                                name="toWallet"
+                                                id="defaultInput"
+                                                className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                placeholder="receiver address"
+                                            />   
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div className="p-5 flex-items-center justify-between space-x-8">
+                                    <div>
+                                        <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">
+                                            Receiving Wallet
+                                        </label>
+                                        <div className="relative mt-1 rounded-md shadow-sm">
+                
+                                            <input
+                                                type="text"
+                                                name="toWallet"
+                                                id="defaultInput"
+                                                className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                placeholder="receiver address"
+                                            />   
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div className="p-5 flex-items-center justify-between space-x-8">
+                                    <div>
+                                        <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">
+                                            Receiving Wallet
+                                        </label>
+                                        <div className="relative mt-1 rounded-md shadow-sm">
+                
+                                            <input
+                                                type="text"
+                                                name="toWallet"
+                                                id="defaultInput"
+                                                className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                placeholder="receiver address"
+                                            />   
+                                        </div>
+                                    </div>   
                                 </div>
                             </div>
                         </div>

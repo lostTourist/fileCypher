@@ -9,11 +9,11 @@ function FooterMod() {
                         {/* LOGO */}
                         <div className="flex mb-4">
                             <div className="">
-                                <p className="text-left text-3xl font-bold">
-                                    <span className="font-light">lens</span>Book
+                                <p className="text-left text-3xl font-bold pb-2">
+                                    <span className="font-light">file</span>Cypher
                                 </p>
-                                <p className="text-left text-xs">Decentralized NFT Books and Novels<br /><strong>Publisher & Marketplace</strong></p>
-                                <div className="flex flex-row my-4">
+                                <p className="text-left text-xs">Encrypted Web3 file sharing</p>
+                                <div className="flex flex-row my-4 pt-4">
                                     <div className="mr-2">
                                     <svg
     
@@ -55,17 +55,8 @@ function FooterMod() {
                         {/* PRIMARY NAV */}
                         <div className="flex text- ">
                             <div className="flex flex-col items-left">
-                                <a href="#" className=" hover:text-slate-500">Market</a>
-                                <a href="#" className=" hover:text-slate-500">Dashboard</a>
-                                <a href="#" className=" hover:text-slate-500">Write</a>
-                                <a href="#" className=" hover:text-slate-500">Publish</a>
+                                <a href="#" className=" hover:text-slate-500">Share File</a>
                                 <a href="#" className=" hover:text-slate-500">FAQ</a>
-                            </div>
-
-                            <div className="flex flex-col items-left ml-20 md:mr-40">
-                                <a href="#" className=" hover:text-slate-500">Market</a>
-                                <a href="#" className=" hover:text-slate-500">Dashboard</a>
-                                <a href="#" className=" hover:text-slate-500">Write</a>
                             </div>
                         </div>
                     </div>

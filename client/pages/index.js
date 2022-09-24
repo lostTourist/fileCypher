@@ -90,8 +90,7 @@ export default function Home() {
                 />
             </div>
 
-            {/*SUBNAV*/}
-
+            {/*SUBNAV
             <div className="flex flex-col md:flex-row justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
                 <MarketCard
                     title="Market"
@@ -115,8 +114,9 @@ export default function Home() {
                     const buttonHandler={() => { }}
                 />
             </div>
+            */}
 
-
+            {/*marketplace
             <div className="bg-slate-300 shadow-inner">
                 <div className="p-10 pb-0"><p>Minting Now</p>
                     <p>view more...</p></div>
@@ -157,8 +157,7 @@ export default function Home() {
                 ))}
             </div>
             </div>
-
-            {/*SUBNAV*/}
+*/}
 
             <div className="flex justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
                 <FooterMod />

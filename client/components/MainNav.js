@@ -13,7 +13,7 @@ function MainNav() {
                         {/* LOGO */}
                         <div className="flex">
                             <h1 className="flex text-left text-xl font-bold items-center mr-4">
-                                <span className="font-light">lens</span>Book
+                                <span className="font-light">file</span>Cypher
                             </h1>
                         </div>
 

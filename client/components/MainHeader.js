@@ -9,14 +9,10 @@ function MainHeader({ backgroundImage }) {
 
                 {/*LOGO*/}
                 <div className="p-8">
-                    <h1 className="text-left font-bold text-6xl pb-3 text-slate-900 relative">
-                        <span className="font-light">lens</span>Book
+                    <h1 className="text-left font-bold text-3xl pb-3 text-slate-900 relative">
+                        <span className="font-light">file</span>Cypher
                     </h1>
-                    <h2 className="text-left font-bold text-xl text-black relative">
-                        Decentralized NFT Books and Novels
-                        <br />
-                        <span className="text-violet-900">Publisher &amp; Marketplace</span>
-                    </h2>
+                   
                 </div>
                 {/*begin polygon*/}
                 <div className="flex absolute bottom-0 right-0 p-8 pb-4">

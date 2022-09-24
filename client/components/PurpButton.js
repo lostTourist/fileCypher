@@ -1,4 +1,4 @@
-function PurpButton({ buttonName, buttonHandler, buttonURL }) {
+function PurpButton({ buttonName, buttonHandler}) {
     return (
        <div
             className="absolute flex flex-col flex-grow-0 flex-shrink-0 gap-2.5 rounded -bottom-8 right-1/2 translate-x-1/2"

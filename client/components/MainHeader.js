@@ -1,19 +1,57 @@
 function MainHeader({ backgroundImage }) {
     return (
         <div className="relative">
-            <div className="bg-[#d9d9d9] w-full h-96 md:h-[480px] relative">
-                <img
-                    src={backgroundImage}
-                    className="object-cover w-full h-full absolute mix-blend-overlay"
-                />
+            <div className="bg-slate-100 min-h-screen relative flex-items-center justify-center px-8">
+
 
                 {/*LOGO*/}
-                <div className="p-8">
-                    <h1 className="text-left font-bold text-3xl pb-3 text-slate-900 relative">
+                <div className="pt-8 text-slate-900">
+                    <h1 className="text-left font-bold text-3xl pb-2 relative">
                         <span className="font-light">file</span>Cypher
                     </h1>
-                   
+                    <p>Encrypted Web3 file sharing</p>
                 </div>
+                {/*begin mint form*/}
+                {/*BACKGROUND*/}
+                <div className="grid place-items-center mt-10">
+                    <div className="flex items-center justify-self-center relative">
+                        <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 bg-green-300 rounded-full animate-blob animation-delay-2000"></div>
+                        <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 bg-purple-300 rounded-full animate-blob2"></div>
+                        <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 bg-red-300 rounded-full animate-blob3  animation-delay-4000"></div>
+
+                        <div className="flex w-full max-w-lg">
+                            <div className="shadow-2xl relative text-center text-black pt-4 pb-10 p-8 m-6 mt-4 mb-12 rounded-full bg-slate-50 ">
+                            <div className="mt-10"><p>Fill otu this form completely to send an encrypted file over the blockchain.</p></div>
+                                <div className="p-5 flex-items-center justify-between space-x-8">
+
+                                    <div>
+                                        <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">
+                                            Receiving Wallet
+                                        </label>
+                                        <div className="relative mt-1 rounded-md shadow-sm">
+                
+                                            <input
+                                                type="text"
+                                                name="toWallet"
+                                                id="pricetoWallet"
+                                                className="py-3 block w-full rounded-md border-gray-300 pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                placeholder="receiver address"
+                                            />
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
                 {/*begin polygon*/}
                 <div className="flex absolute bottom-0 right-0 p-8 pb-4">
                     <p className="flex-grow-0 flex-shrink-0 w-16 h-[52px] text-base text-left text-black">

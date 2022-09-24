@@ -77,16 +77,16 @@ export default function Home() {
     }
 
     return (
-        <>  {/*NAVBAR*/}
+        <>  {/*NAVBAR
 
             <MainNav />
-
+            */}
 
             {/*HEADER*/}
 
             <div className="position-relative" >
                 <MainHeader
-                    backgroundImage="https://images.pexels.com/photos/8531176/pexels-photo-8531176.jpeg"
+                    
                 />
             </div>
 
@@ -157,11 +157,11 @@ export default function Home() {
                 ))}
             </div>
             </div>
-*/}
 
             <div className="flex justify-center place-content-center pt-10 pb-10 bg-gradient-to-br from-[#0f5f4b] to-[#09152f] shadow-lg">
                 <FooterMod />
             </div>
+        */}
         </>
     )
 }

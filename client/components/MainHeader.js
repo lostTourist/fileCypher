@@ -5,12 +5,14 @@ function MainHeader({ backgroundImage }) {
 
 
             {/*LOGO*/}
+           
             <div className="pt-8 dark:text-slate-200 text-slate-900">
                 <h1 className="text-left font-bold text-3xl pb-2 relative">
                     <span className="font-light">file</span>Cypher
                 </h1>
                 <p>Encrypted Web3 file sharing</p>
             </div>
+           
             {/*begin mint form*/}
             {/*BACKGROUND*/}
             <div className="grid place-items-center mt-10">
@@ -38,7 +40,7 @@ function MainHeader({ backgroundImage }) {
                                             type="text"
                                             name="toWallet"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                            className="hover:scale-105 px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                             placeholder="receiver address"
                                         />
                                     </div>
@@ -56,7 +58,7 @@ function MainHeader({ backgroundImage }) {
                                             type="text"
                                             name="toMsg"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                            className="hover:scale-105 px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                             placeholder="this message will be visable on chain."
                                         />
                                     </div>
@@ -73,7 +75,7 @@ function MainHeader({ backgroundImage }) {
                                             type="file"
                                             name="usrFile"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full sm:text-sm dark:text-slate-200"
+                                            className="hover:scale-110 px-6 py-3 block w-full sm:text-sm dark:text-slate-200"
                                             placeholder="only 1 file per transaction"
                                         />
                                     </div>
@@ -82,7 +84,7 @@ function MainHeader({ backgroundImage }) {
                             <hr />
                             <div className="p-5 mb-10 flex-items-center justify-between space-x-8">
                                 <div
-                                    className="absolute bg-gradient-to-br from-[#3a42e1] to-[#620c90] flex flex-col flex-grow-0 flex-shrink-0 gap-2.5 rounded right-1/2 translate-x-1/2"
+                                    className="absolute dark:bg-gradient-to-br hover:drop-shadow-xl hover:border-2 hover:scale-110 hover:border-slate-500 from-blue-900 to-purple-900 bg-gradient-to-br from-blue-500 to-purple-500 flex flex-col flex-grow-0 flex-shrink-0 gap-2.5 rounded right-1/2 translate-x-1/2"
                                     
                                 >
                                     <button

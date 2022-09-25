@@ -151,7 +151,7 @@ function MainHeader({ backgroundImage }) {
 
                 {/*End polygon */}
             </div>
-        </div>
+        
     )
 }
 

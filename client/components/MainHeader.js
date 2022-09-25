@@ -1,11 +1,11 @@
 function MainHeader({ backgroundImage }) {
     return (
 
-        <div className="bg-slate-200 min-h-screen relative flex-items-center justify-center px-8">
+        <div className="bg-slate-200 dark:bg-slate-800 min-h-screen relative flex-items-center justify-center px-8">
 
 
             {/*LOGO*/}
-            <div className="pt-8 text-slate-900">
+            <div className="pt-8 dark:text-slate-200 text-slate-900">
                 <h1 className="text-left font-bold text-3xl pb-2 relative">
                     <span className="font-light">file</span>Cypher
                 </h1>
@@ -15,13 +15,13 @@ function MainHeader({ backgroundImage }) {
             {/*BACKGROUND*/}
             <div className="grid place-items-center mt-10">
                 <div className="flex items-center justify-self-center relative">
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
+                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 dark:mix-blend-screen bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
+                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 dark:mix-blend-screen bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
+                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
 
                     <div className="flex w-full max-w-lg">
-                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl bg-slate-100 ">
-                        <div className="relative text-center rounded-t-3xl bg-purple-100 flex-full flex m-0 w-full ">
+                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl  bg-slate-100/60 ">
+                        <div className="relative text-center rounded-t-3xl bg-green-300/70 dark:bg-green-800/70 flex-full flex m-0 w-full ">
                             <div className="m-6 font-strong 900">
                                 <h1 className="font-bold text-xl">Encrypt & Send</h1>
                                 <p className="font-light" >Send a file to an Etherium address. The file will be encrypted and only viewable by the receiver through their wallet.</p></div>
@@ -73,7 +73,7 @@ function MainHeader({ backgroundImage }) {
                                             type="file"
                                             name="usrFile"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full sm:text-sm"
+                                            className="px-6 py-3 block w-full sm:text-sm dark:text-slate-700"
                                             placeholder="only 1 file per transaction"
                                         />
                                     </div>
@@ -107,7 +107,7 @@ function MainHeader({ backgroundImage }) {
 
 
             {/*begin polygon*/}
-            <div className="flex absolute bottom-0 right-0 p-8 pb-4">
+            <div className="flex absolute bottom-0 right-0 p-8 pb-4 dark:text-slate-200">
                 <p className="flex-grow-0 flex-shrink-0 w-16 h-[52px] text-base text-left text-black">
                     built on{" "}
                 </p>

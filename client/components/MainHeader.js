@@ -20,11 +20,13 @@ function MainHeader({ backgroundImage }) {
                     <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
 
                     <div className="flex w-full max-w-lg">
-                        <div className="shadow-2xl relative text-center pt-4 pb-10 p-8 m-6 mt-4 mb-12 rounded-3xl bg-slate-50 ">
-                            <div className="m-10 font-strong ">
-                                <h1 className="font-bold text-xl">Encrypt &_nbsp Send</h1>
-                                <p className="font-light" >Fill out this form completely to send an encrypted file over the blockchain.</p></div>
-                            <hr />
+                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl bg-slate-100 ">
+                        <div className="relative text-center rounded-t-3xl bg-purple-100 flex-full flex m-0 w-full ">
+                            <div className="m-6 font-strong 900">
+                                <h1 className="font-bold text-xl">Encrypt & Send</h1>
+                                <p className="font-light" >Send a file to an Etherium address. The file will be encrypted and only viewable by the receiver through their wallet.</p></div>
+                            </div>
+                         
                             <div className="p-5 flex-items-center justify-between space-x-8">
                                 <div>
                                     <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">

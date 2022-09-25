@@ -20,9 +20,9 @@ function MainHeader({ backgroundImage }) {
                     <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
 
                     <div className="flex w-full max-w-lg">
-                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl  bg-slate-100/60 ">
+                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl dark:bg-slate-600/80 bg-slate-100/60 ">
                         <div className="relative text-center rounded-t-3xl bg-green-300/70 dark:bg-green-800/70 flex-full flex m-0 w-full ">
-                            <div className="m-6 font-strong 900">
+                            <div className="m-6 font-strong dark:text-slate-200">
                                 <h1 className="font-bold text-xl">Encrypt & Send</h1>
                                 <p className="font-light" >Send a file to an Etherium address. The file will be encrypted and only viewable by the receiver through their wallet.</p></div>
                             </div>
@@ -38,7 +38,7 @@ function MainHeader({ backgroundImage }) {
                                             type="text"
                                             name="toWallet"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                            className="px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                             placeholder="receiver address"
                                         />
                                     </div>
@@ -56,7 +56,7 @@ function MainHeader({ backgroundImage }) {
                                             type="text"
                                             name="toMsg"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full rounded-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                            className="px-6 py-3 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                             placeholder="this message will be visable on chain."
                                         />
                                     </div>

@@ -84,7 +84,7 @@ export default function Home() {
 
             {/*HEADER*/}
 
-            <div className="position-relative" >
+            <div className=" position-relative" >
                 <MainHeader
                     
                 />

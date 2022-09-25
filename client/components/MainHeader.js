@@ -1,7 +1,7 @@
 function MainHeader({ backgroundImage }) {
     return (
-        <div className="relative">
-            <div className="bg-slate-100 min-h-screen relative flex-items-center justify-center px-8">
+        
+            <div className="bg-slate-200 min-h-screen relative flex-items-center justify-center px-8">
 
 
                 {/*LOGO*/}
@@ -21,7 +21,7 @@ function MainHeader({ backgroundImage }) {
 
                         <div className="flex w-full max-w-lg">
                             <div className="shadow-2xl relative text-center text-black pt-4 pb-10 p-8 m-6 mt-4 mb-12 rounded-3xl bg-slate-50 ">
-                            <div className="mt-10"><p>Fill otu this form completely to send an encrypted file over the blockchain.</p></div>
+                            <div className="mt-10"><p>Fill out this form completely to send an encrypted file over the blockchain.</p></div>
                                 <div className="p-5 flex-items-center justify-between space-x-8">
                                     <div>
                                         <label htmlFor="toWallet" className="block text-sm font-medium text-gray-700">

@@ -7,9 +7,9 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                blob: "blob 7s infinite",
-                blob2: "blob2 7s infinite",
-                blob3: "blob3 7s infinite"
+                blob: "blob 14s infinite",
+                blob2: "blob2 24s infinite",
+                blob3: "blob3 14s infinite"
             },
 
             keyframes: {
@@ -21,7 +21,7 @@ module.exports = {
                         transform: "translate(30px , -50px) scale(1.1)"
                     },
                     "66%": {
-                        transform: "translate(-20px ,20px) scale(0.9)"
+                        transform: "translate(120px ,20px) scale(0.9)"
                     },
                     "100%": {
                         transform: "translate(0px ,0px) scale(1)"
@@ -31,11 +31,14 @@ module.exports = {
                     "0%": {
                         transform: "translate(0px ,0px) scale(1)"
                     },
-                    "33%": {
-                        transform: "translate(-20px , -20px) scale(1.1)"
+                    "25%": {
+                        transform: "translate(-100px , 50px) scale(1.1)"
                     },
-                    "66%": {
-                        transform: "translate(-30px ,-10px) scale(0.9)"
+                    "50%": {
+                        transform: "translate(-200px , 200px) scale(1)"
+                    },
+                    "75%": {
+                        transform: "translate(-100px ,100px) scale(0.9)"
                     },
                     "100%": {
                         transform: "translate(0px ,0px) scale(1)"
@@ -49,7 +52,7 @@ module.exports = {
                         transform: "translate(40px , -50px) scale(1.1)"
                     },
                     "66%": {
-                        transform: "translate(-50px ,-20px) scale(0.9)"
+                        transform: "translate(-100px ,-20px) scale(0.9)"
                     },
                     "100%": {
                         transform: "translate(0px ,0px) scale(1)"

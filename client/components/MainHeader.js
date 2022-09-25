@@ -73,7 +73,7 @@ function MainHeader({ backgroundImage }) {
                                             type="file"
                                             name="usrFile"
                                             id="defaultInput"
-                                            className="px-6 py-3 block w-full sm:text-sm dark:text-slate-700"
+                                            className="px-6 py-3 block w-full sm:text-sm dark:text-slate-200"
                                             placeholder="only 1 file per transaction"
                                         />
                                     </div>

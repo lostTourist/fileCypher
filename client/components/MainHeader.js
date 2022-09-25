@@ -15,9 +15,9 @@ function MainHeader({ backgroundImage }) {
             {/*BACKGROUND*/}
             <div className="grid place-items-center mt-10">
                 <div className="flex items-center justify-self-center relative">
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 dark:mix-blend-screen bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 dark:mix-blend-screen bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
-                    <div className="filter blur-2xl opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
+                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 dark:mix-blend-screen bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
+                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 dark:mix-blend-screen bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
+                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
 
                     <div className="flex w-full max-w-lg">
                         <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl dark:bg-slate-600/80 bg-slate-100/60 ">

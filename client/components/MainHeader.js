@@ -10,7 +10,7 @@ function MainHeader({ backgroundImage }) {
                 <h1 className="text-left font-bold text-3xl pb-2 relative">
                     <span className="font-light">file</span>Cypher
                 </h1>
-                <p>Encrypted Web3 file sharing</p>
+                <p>Encrypted Web3 file sharing.</p>
             </div>
            
             {/*begin mint form*/}

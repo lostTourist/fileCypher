@@ -1,7 +1,7 @@
 function MainHeader({ backgroundImage }) {
     return (
 
-        <div className="bg-slate-200 dark:bg-slate-800 min-h-screen relative flex-items-center justify-center px-8">
+        <div className="bg-slate-200 dark:bg-slate-800 min-h-screen relative flex-items-center justify-center px-3 sm:px-8 overflow-hidden">
 
 
             {/*LOGO*/}
@@ -17,14 +17,15 @@ function MainHeader({ backgroundImage }) {
             {/*BACKGROUND*/}
             <div className="grid place-items-center mt-10">
                 <div className="flex items-center justify-self-center relative">
-                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-48 left-20 w-96 h-96 dark:mix-blend-screen bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
-                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-10 left-40 w-96 h-96 dark:mix-blend-screen bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
-                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-10 -left-2 w-96 h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
-
-                    <div className="flex w-full max-w-lg">
-                        <div className="shadow-2xl relative text-center m-3 pb-4 rounded-3xl dark:bg-slate-600/80 bg-slate-100/60 ">
+                    <div className="overflow-hidden">
+                   <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute  top-6 left-6 sm:top-48 sm:left-20 w-40 h-40 sm:w-96 sm:h-96 dark:mix-blend-screen bg-green-300 rounded-full animate-blob animation-delay-2000 overflow-hidden"></div>
+                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-5 left-6 sm:top-10 sm:left-40 w-40 h-40 sm:w-96 sm:h-96 dark:mix-blend-screen bg-purple-300 rounded-full animate-blob2 overflow-hidden"></div>
+                    <div className="filter blur-2xl dark:opacity-30 opacity-60 mix-blend-multiply absolute top-10 -left-2 sm:top-10 sm:-left-2 w-40 h-40 sm:w-96 sm:h-96 dark:mix-blend-screen bg-red-300 rounded-full animate-blob3  animation-delay-4000 overflow-hidden"></div>
+                    </div>
+                    <div className="flex w-full max-w-lg mb-20">
+                        <div className="shadow-2xl relative text-center sm:m-3 sm:pb-4 rounded-3xl dark:bg-slate-600/80 bg-slate-100/60 ">
                         <div className="relative text-center rounded-t-3xl bg-green-300/70 dark:bg-green-800/70 flex-full flex m-0 w-full ">
-                            <div className="m-6 font-strong dark:text-slate-200">
+                            <div className="m-1 sm:m-6 font-strong dark:text-slate-200">
                                 <h1 className="font-bold text-xl">Encrypt & Send</h1>
                                 <p className="font-light" >Send a file to an Etherium address. The file will be encrypted and only viewable by the receiver through their wallet.</p></div>
                             </div>
@@ -82,7 +83,7 @@ function MainHeader({ backgroundImage }) {
                                 </div>
                             </div>
                             <hr />
-                            <div className="p-5 mb-10 flex-items-center justify-between space-x-8">
+                            <div className="p-5 mb-16 sm:mb-10 flex-items-center justify-between space-x-8">
                                 <div
                                     className="absolute dark:bg-gradient-to-br hover:drop-shadow-xl hover:border-2 hover:scale-110 hover:border-slate-500 from-blue-900 to-purple-900 bg-gradient-to-br from-blue-500 to-purple-500 flex flex-col flex-grow-0 flex-shrink-0 gap-2.5 rounded right-1/2 translate-x-1/2"
                                     
